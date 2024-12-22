@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+#My_Form,
+label {
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+form {
+    width: 42%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+}
+
+fieldset {
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+fieldset:hover {
+    box-shadow: 1px 1px 3px #ababab;
+    transition: .5s;
+}
+
+legend {
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+label,
+input,
+#btn {
+    margin: 0 30px;
+}
+
+input,
+#btn {
+    width: 88%;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid #ccc;
+    margin-bottom: 13px;
+    padding-left: 15px;
+}
+
+input:focus {
+    box-shadow: 1px 1px 3px #ababab;
+}
+
+#btn {
+    background-color: green;
+    color: white;
+    font-size: 17px;
+}
+
+#btn:hover {
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#msg {
+    text-align: center;
+    margin: 40px auto;
+    font-weight: bold;
+    font-size: large;
+    text-shadow: 1px 1px 3px grey;
+}
+
+
+table {
+    border-bottom: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 60%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0 10px;
+    margin: auto;
+    padding: 0 20px;
+    background-color: #604d2c !important;
+}
+
+th {
+    height: 40px;
+    background-color: #604d2c;
+    color: white;
+}
+
+td {
+    /* margin-top: 20px; */
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+#Action_btn {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#edit,
+#delete {
+    width: 80px;
+    outline: none;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#edit {
+    background-color: green;
+    color: white;
+    font-size: 15px;
+}
+
+#edit:hover,
+#delete:hover {
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+}
+
+#delete {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
