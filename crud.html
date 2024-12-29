@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href='https://fonts.googleapis.com/css?family=Abhaya Libre' rel='stylesheet'>
-    <link rel="stylesheet" href="CRUD_Opration.css">
+    <link rel="stylesheet" href="crud.css">
 </head>
 
 <body>
+    <div id="permission_btn">
+        <h2>Do you want to delete Data.</h2>
+        <button id="No">No</button>
+        <button id="Yes">Yes</button>
+    </div>
     <form action="">
         <fieldset>
             <legend>
@@ -19,8 +24,8 @@
             <input type="text" id="name" name="name" placeholder="Please enter your name" required><br>
 
             <label for="age">Age:</label><br>
-            <input type="number" id="age" name="age" placeholder="Please enter your birth (YYYY)" min="10"
-                max="100"><br>
+            <input type="number" id="age" name="age" placeholder="Please enter your birth (YYYY)" min="10" max="100"
+                required><br>
 
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" placeholder="Please enter your personal email" required><br>
@@ -29,7 +34,7 @@
             <input type="tel" id="Phone_num" name="Phone_num" placeholder="Please enter your personal Phone number"
                 required><br><br>
 
-            <input type="submit" id="btn">
+            <input type="button" mode="create" value="Submit" id="btn">
         </fieldset>
     </form>
 
@@ -49,7 +54,7 @@
 
         </tbody>
     </table>
-    <script src="CRUD_Opration.js"></script>
+    <script src="crud.js"></script>
 </body>
 
 </html>
